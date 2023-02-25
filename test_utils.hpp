@@ -9,7 +9,7 @@
 #include <unordered_map>
 #include <vector>
 
-namespace mg_test_utility {
+namespace test_utility {
 
     constexpr double ABSOLUTE_ERROR_EPSILON{10e-4};
     constexpr double AVERAGE_ABSOLUTE_ERROR_EPSILON{10e-5};
@@ -34,4 +34,4 @@ namespace mg_test_utility {
                AverageAbsoluteError(result, correct) < average_error;
     }
 
-}  // namespace mg_test_utility
+}  // namespace test_utility
